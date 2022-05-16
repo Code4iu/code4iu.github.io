@@ -1,9 +1,9 @@
 ---
 title: Inicio del Blog
-pubished: true
+pubished: false
 ---
 
-Este será un Blog dirigido a la progrmación en c/c++ ademas de incluir una seccion de LaTeX
+Este será un Blog dirigido a la progrmación en `c/c++` ademas de incluir una seccion de `LaTeX`
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 

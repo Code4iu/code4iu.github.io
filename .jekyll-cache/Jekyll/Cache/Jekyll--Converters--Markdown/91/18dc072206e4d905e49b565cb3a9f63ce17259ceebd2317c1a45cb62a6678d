@@ -1,0 +1,36 @@
+I"�<p>Este será un Blog dirigido a la progrmación en <code class="language-plaintext highlighter-rouge">c/c++</code> ademas de incluir una seccion de <code class="language-plaintext highlighter-rouge">LaTeX</code>.</p>
+
+<p>Los ejercicios estaran escritos como a continuacion se presentan:</p>
+
+<blockquote>
+  <p>Ejecutar el siguiente código fuente (Declarando <em>valor_logico</em>  como entero y
+luego declarándolo como <em>float</em>):</p>
+</blockquote>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;stdlib.h&gt;</span><span class="cp">
+</span>
+<span class="c1">//int valor_logico;</span>
+<span class="kt">float</span> <span class="n">valor_logico</span><span class="p">;</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"-------------------------------------------------------------------------- </span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"                               EJERCICIO 1</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"          Correrer el codigo y despues modificar el tipo de variable</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"Valores logicos de las siguientes expresiones</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+    <span class="n">valor_logico</span><span class="o">=</span><span class="p">(</span><span class="mi">3</span><span class="o">&gt;</span><span class="mi">5</span><span class="p">);</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">" (3&gt;5) es %d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="n">valor_logico</span><span class="p">);</span>
+    <span class="n">valor_logico</span><span class="o">=</span><span class="p">(</span><span class="mi">5</span><span class="o">&gt;</span><span class="mi">3</span><span class="p">);</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">" (5&gt;3) es %d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="n">valor_logico</span><span class="p">);</span>
+    <span class="n">valor_logico</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="o">&gt;</span><span class="mi">3</span><span class="o">*</span><span class="mi">5</span><span class="p">);</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">" (15&gt;3*5) es %d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="n">valor_logico</span><span class="p">);</span>
+    <span class="n">valor_logico</span><span class="o">=!</span><span class="p">(</span><span class="mi">5</span><span class="o">==</span><span class="mi">3</span><span class="p">);</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"!(5==3) es %d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="n">valor_logico</span><span class="p">);</span>
+
+
+    <span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">--------------------------------HERGOD-------------------------------------</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+
+</code></pre></div></div>
+:ET
